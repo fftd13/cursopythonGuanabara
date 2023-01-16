@@ -1,0 +1,5 @@
+f = str (input ('digite uma frase:')).strip().upper()
+print('\nesta frase possui {} caracters'.format(len(f)))
+print('\na letra A aparece {} vezes na frase!'.format(f.count('A')))
+print('a letra A aparece na posiçao:{}'.format(f.find('A')+1))
+print('a ultima letra A aparece na posiçao:{}'.format(f.rfind('A')+1))
